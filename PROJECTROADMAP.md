@@ -11,4 +11,4 @@
 ### Sprint 2
 - [ ] Review code for additional comments needed
 - [ ] Run code in Visual Studio to test output
-- [ ] Research ways to improve code by adding one more selection of vegetarian recipes, etc. 
+- [ ] Research ways to improve code
