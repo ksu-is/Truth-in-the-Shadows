@@ -6,5 +6,5 @@
 - [x] Establish ownership of a code repository
 - [x] Edited and committed changes in readme.md file
 - [x] Explored at least one existing Python code related to the project
-- [makeuseofcode/python-adventure].(https://github.com/makeuseofcode/python-adventure-game)
+- [makeuseofcode/python-adventure](https://github.com/makeuseofcode/python-adventure-game)
 - [x] Update projectroadmap.md file
