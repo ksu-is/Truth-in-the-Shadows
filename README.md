@@ -12,3 +12,4 @@ Truth in the Shadows is a Text-based adventure game where the player will have t
 This project is designed for people that enjoy stories and mysteries. I would recommend to play through my project if you would like to immerse yourself into a mysterious immersive world.
 
 ## Integration
+- [makeuseofcode/python-adventure](https://github.com/makeuseofcode/python-adventure-game)
