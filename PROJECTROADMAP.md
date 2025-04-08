@@ -5,10 +5,6 @@
 - [x] Established GitHub account and joined KSU-IS organization
 - [x] Establish ownership of a code repository
 - [x] Edited and committed changes in readme.md file
-- [x] Explored existing Python code to find related project
+- [x] Explored at least one existing Python code related to the project
+- [makeuseofcode/python-adventure].(https://github.com/makeuseofcode/python-adventure-game)
 - [x] Update projectroadmap.md file
-      
-### Sprint 2
-- [ ] Review code for additional comments needed
-- [ ] Run code in Visual Studio to test output
-- [ ] Research ways to improve code
