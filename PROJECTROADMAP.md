@@ -7,4 +7,5 @@
 - [x] Edited and committed changes in readme.md file
 - [x] Explored at least one existing Python code related to the project
 - [makeuseofcode/python-adventure](https://github.com/makeuseofcode/python-adventure-game)
-- [x] Update projectroadmap.md file
+- [x] Update projectroadmap.md file and explain findings from existing Python code related to the project.
+- [x] Read the existing Python code base related to the project and attempt to run it.
