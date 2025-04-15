@@ -16,10 +16,10 @@ Text-based Combat against enemies (Fight/Flee, Use of Items, Success/Defeat). My
 - [x] Read the existing Python code base related to the project and attempt to run it.
 - After reading and running the Python code base related to the project, it works well. For my project, I will be adding an inventory system, which will not be used in just the combat system, but also to interact with NPCs or equipment that may need the use of an item.
 
-##Storyline
-[x] Complete name interaction
-[x] Complete storyline for firstChoice
-[] Complete storyline for secondChoice.
-[] Completed interaction for items between choices.
-[] Completed ALL errors from firstChoice.
-[] Completed ALL errors from secondChoice.
+## Storyline
+- [x] Complete name interaction
+- [x] Complete storyline for firstChoice
+- [] Complete storyline for secondChoice.
+- [] Completed interaction for items between choices.
+- [] Completed ALL errors from firstChoice.
+- [] Completed ALL errors from secondChoice.
