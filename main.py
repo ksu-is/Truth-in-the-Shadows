@@ -1,9 +1,9 @@
 def firstChoice():
   directions = ["left","right","forward","backward"]
+  userInput = ""
   print("You just got off the phone with {friendName}'s mom.")
   print("To your left, you see your backpack. To your right, you see an apple. In front of you, you see the apartment door exit.")
   print("Where would you like to do")
-userInput = ""
 while userInput not in directions:
     print("Options: left/right/forward")
     userInput = input()
