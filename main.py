@@ -9,6 +9,7 @@ if __name__ == "__main__":
     print("But first: What is your name?")
     yourName = input()
     print(f"Welcome {yourName}!")
+    print("Now: What is your friend's name?")
     friendName = input()
     print(f"Let's go find {friendName}!")
     
