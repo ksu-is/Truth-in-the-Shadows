@@ -59,7 +59,9 @@ def storeInteraction():
   print("You get a weird feeling about this store.") #i will add the worker that you can interact with
 
 def strangerInteraction():
-  
+  print("You walk up to the stranger and ask if they have seen {friendName}.")
+  print("The stranger stares at you for a while, but then turns to look at an arcade down the road.")
+  print("You thank the stranger, and start walking down.")
 
 if __name__ == "__main__":
   while True:
