@@ -35,7 +35,6 @@ def SecondChoiceLeaveApartment():
   print("You leave your apartment. To your left, you see a little girl holding a balloon.")
   print("To your right, you see a convinence store.")
   print("In front of you, you see a stranger in a black hoodie.")
-  print("You can still go back into your apartment.")
 
 while userInput not in directions:
     print("Options: left/right/forward/backward")
@@ -46,10 +45,13 @@ while userInput not in directions:
       storeInteraction()
     elif userInput == "forward":
       strangerInteraction()
-    elif userInput == "backward":
-      apartmentReturn()
+  
     else: 
       print("Please enter a valid option.")
+
+def girlInteraction()
+  print("You walk up to the girl. She looks up at you, sticks her tongue out, and runs off into the distance.")
+  print(
 
 if __name__ == "__main__":
   while True:
