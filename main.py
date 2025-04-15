@@ -13,9 +13,9 @@ if __name__ == "__main__":
     friendName = input()
     print(f"Let's go find {friendName}!")
     
-    firstChoiceApartment()
+    firstChoice()
 
-def firstChoiceApartment():
+def firstChoice():
   directions = ["left","right","forward","backward"]
   print("You just got off the phone with {friendName}'s mom.")
   print("To your left, you see your backpack. To your right, you see an apple. In front of you, you see the apartment door exit.")
