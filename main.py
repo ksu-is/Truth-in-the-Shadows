@@ -12,15 +12,15 @@ if __name__ == "__main__":
     friendName = input()
     print(f"Let's go find {friendName}!")
     
-    firstChoice()
+    firstChoiceApartment()
 
 def firstChoiceApartment():
   directions = ["left","right","forward","backward"]
   print("You just got off the phone with {friendName}'s mom.")
   print("To your left, you see your backpack. To your right, you see an apple. In front of you, you see the apartment door exit.")
   print("Where would you like to do")
-   userInput = ""
-  while userInput not in directions:
+userInput = ""
+while userInput not in directions:
     print("Options: left/right/forward")
     userInput = input()
     if userInput == "left":
@@ -32,21 +32,21 @@ def firstChoiceApartment():
     else: 
       print("Please enter a valid option.")
 
-def backpackInteraction
-print("You walk to your backpack and look inside.")
+def backpackInteraction():
+  print("You walk to your backpack and look inside.")
 print("You see a notepad and pencil inside! As well as a 5 dollar bill!")
 print("You put on the backpack and leaves your apartment.")
 
-def appleInteraction()
-print("You walk to the apple sitting on your desk.")
+def appleInteraction():
+  print("You walk to the apple sitting on your desk.")
 print("You pick it up and put it into your pocket.")
 print("You leave your apartment")
 
-def apartmentExit()
-print("You leave your apartment.")
+def apartmentExit():
+  print("You leave your apartment.")
 
 
-  def SecondChoiceLeaveApartment()
+def SecondChoiceLeaveApartment():
   directions = ["left","right","forward","backward"]
   print("You leave your apartment. To your left, you see a little girl holding a balloon.")
   print("To your right, you see a convinence store.")
@@ -66,6 +66,3 @@ while userInput not in directions:
       apartmentReturn()
     else: 
       print("Please enter a valid option.")
-
-
-
