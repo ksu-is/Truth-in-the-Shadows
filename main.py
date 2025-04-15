@@ -32,6 +32,17 @@ def firstChoiceApartment():
     else: 
       print("Please enter a valid option.")
 
+def backpackInteraction
+print("You walk to your backpack and look inside.")
+print("You see a notepad and pencil inside! As well as a 5 dollar bill!")
+print("You put on the backpack and leaves your apartment.")
+
+def appleInteraction()
+print("You walk to the apple sitting on your desk.")
+print("You pick it up and put it into your pocket.")
+print("You leave your apartment")
+
+
 
   def SecondChoiceLeaveApartment()
   directions = ["left","right","forward","backward"]
