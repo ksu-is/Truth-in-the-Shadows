@@ -19,7 +19,7 @@ Text-based Combat against enemies (Fight/Flee, Use of Items, Success/Defeat). My
 ## Storyline
 - [x] Complete name interaction
 - [x] Complete storyline for firstChoice
-- [] Complete storyline for secondChoice.
-- [] Completed interaction for items between choices.
-- [] Completed ALL errors from firstChoice.
-- [] Completed ALL errors from secondChoice.
+- [ ] Complete storyline for secondChoice.
+- [ ] Completed interaction for items between choices.
+- [ ] Completed ALL errors from firstChoice.
+- [ ] Completed ALL errors from secondChoice.
