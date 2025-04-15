@@ -8,15 +8,15 @@ if __name__ == "__main__":
     print("Let's take a look around the city and see if we can find our friend!")
     print("But first: What is your name?")
     yourName = input()
-    print("Welcome " +yourName+ "!")
+    print("Welcome " {yourName} "!")
     friendName = input()
-    print("Let's go find" +friendName+ "!")
+    print("Let's go find" {friendName} "!")
     
     firstChoice()
 
 def firstChoiceApartment():
   directions = ["left","right","forward","backward"]
-  print("You just got off the phone with +friendName+ "/s" mom.")
+  print("You just got off the phone with {friendName}'s mom.")
   print("To your left, you see your backpack. To your right, you see an apple. In front of you, you see the apartment door exit.")
   print("Where would you like to do")
    userInput = ""
