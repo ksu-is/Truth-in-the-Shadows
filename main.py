@@ -1,20 +1,3 @@
-if __name__ == "__main__":
-  while True:
-    print("Welcome to Truth in the Shadows! This is made by Nikky Hoffman.")
-    print("You have been trying to contact your friend for the past week.")
-    print("One day, your friend's mom calls you, asking if you have seen your friend.")
-    print("It turns out that your friend said they were staying at your place.")
-    print("That doesn't sound right. Something seems off.")
-    print("Let's take a look around the city and see if we can find our friend!")
-    print("But first: What is your name?")
-    yourName = input()
-    print(f"Welcome {yourName}!")
-    print("Now: What is your friend's name?")
-    friendName = input()
-    print(f"Let's go find {friendName}!")
-    
-    firstChoice()
-
 def firstChoice():
   directions = ["left","right","forward","backward"]
   print("You just got off the phone with {friendName}'s mom.")
@@ -67,3 +50,20 @@ while userInput not in directions:
       apartmentReturn()
     else: 
       print("Please enter a valid option.")
+
+if __name__ == "__main__":
+  while True:
+    print("Welcome to Truth in the Shadows! This is made by Nikky Hoffman.")
+    print("You have been trying to contact your friend for the past week.")
+    print("One day, your friend's mom calls you, asking if you have seen your friend.")
+    print("It turns out that your friend said they were staying at your place.")
+    print("That doesn't sound right. Something seems off.")
+    print("Let's take a look around the city and see if we can find our friend!")
+    print("But first: What is your name?")
+    yourName = input()
+    print(f"Welcome {yourName}!")
+    print("Now: What is your friend's name?")
+    friendName = input()
+    print(f"Let's go find {friendName}!")
+    
+    firstChoice()
