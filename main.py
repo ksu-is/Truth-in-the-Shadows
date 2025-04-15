@@ -49,9 +49,17 @@ while userInput not in directions:
     else: 
       print("Please enter a valid option.")
 
-def girlInteraction()
+def girlInteraction():
   print("You walk up to the girl. She looks up at you, sticks her tongue out, and runs off into the distance.")
-  print(
+  print("You start to follow the girl.")
+
+def storeInteraction():
+ print("You walk into the convinence store.")
+  print("A large lollipop is 50% off for $5!") # will add: if you have backpack, you can buy. if not, you can't buy. 
+  print("You get a weird feeling about this store.") #i will add the worker that you can interact with
+
+def strangerInteraction():
+  
 
 if __name__ == "__main__":
   while True:
