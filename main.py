@@ -1,16 +1,24 @@
 def girlInteraction():
     print("You walk up to the girl. She looks up at you, sticks her tongue out, and runs off into the distance.")
-    print("You start to follow the girl.")
+    print("You decide to follow the girl.")
+    print("After a few blocks, she drops something shiny and disappears around the corner.")
+    print("You pick up the item — it's a keychain with your friend's initials on it.")
+    print("There's a note attached: 'Find me where the lights never go out.'")
+    print("That must be the arcade!")
+    arcadeInteraction()
 
 def storeInteraction():
     print("You walk into the convenience store.")
     print("A large lollipop is 50% off for $5!")
     print("You get a weird feeling about this store.")
+    print("There's nothing helpful here. You step back outside.")
+    secondChoiceLeaveApartment()
 
 def strangerInteraction():
     print(f"You walk up to the stranger and ask if they have seen {friendName}.")
     print("The stranger stares at you for a while, then turns to look at an arcade down the road.")
     print("You thank the stranger, and start walking down.")
+    arcadeInteraction()
 
 def backpackInteraction():
     print("You walk to your backpack and look inside.")
@@ -28,6 +36,19 @@ def apartmentExit():
 
 def apartmentReturn():
     print("You go back into your apartment. It's still quiet... too quiet.")
+    print("Maybe there's more to see outside.")
+    secondChoiceLeaveApartment()
+
+def arcadeInteraction():
+    print("You walk down the road toward the arcade.")
+    print("The flashing lights and game sounds grow louder as you approach.")
+    print(f"Inside, you spot {friendName} sitting alone, looking scared.")
+    print(f"{friendName}: 'I didn't know what else to do... I thought hiding here was the safest place.'")
+    print("You sit next to your friend and talk for a while, reassuring them.")
+    print("You both decide to head back home together.")
+    print("Thank you for playing. You found your friend and brought them to safety.")
+    print("THE END.")
+    exit()
 
 def firstChoice():
     directions = ["left", "right", "forward"]
@@ -35,8 +56,6 @@ def firstChoice():
     print(f"You just got off the phone with {friendName}'s mom.")
     print("To your left, you see your backpack. To your right, you see an apple. In front of you, you see the apartment door exit.")
     print("What would you like to do?")
-
-
 
     while userInput not in directions:
         print("Options: left/right/forward")
